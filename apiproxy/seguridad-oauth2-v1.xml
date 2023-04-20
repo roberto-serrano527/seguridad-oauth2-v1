@@ -1,0 +1,15 @@
+<APIProxy revision="2" name="seguridad-oauth2-v1">
+    <DisplayName></DisplayName>
+    <Description>API para la generación de tokens de acceso oauth2.</Description>
+    <CreatedAt>1681842294493</CreatedAt>
+    <LastModifiedAt>1681842294493</LastModifiedAt>
+    <BasePaths>/seguridad/oauth2/v1</BasePaths>
+    <Policies>
+        <Policy>BA-Extraer-Consumer-Key</Policy>
+        <Policy>VK-Verficar-Consumer-Key</Policy>
+        <Policy>OA-Generar-Token</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+</APIProxy>
